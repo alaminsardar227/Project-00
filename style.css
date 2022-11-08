@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -8,4 +9,30 @@ h1 {
 
 .orange {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.hlaf-with {
+    width: 50%;
+    padding-left: 45px;
+}
+
+.hlaf-with img {
+    width: 80%;
+}
+
+.link-buttom {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 8px;
+}
+
+.top-bannar {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
